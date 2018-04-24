@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Safe Baby</string>
+    <string name="btnSeguro">Já está Seguro</string>
+    <string name="alerta">Seu Filho está em perigo</string>
+</resources>

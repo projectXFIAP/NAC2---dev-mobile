@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width='match_parent'
+    android:layout_height='match_parent'
+    android:background="#800000"
+    xmlns:android='http://schemas.android.com/apk/res/android'>
+
+    <Button
+        android:id="@+id/btnSeguro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:gravity="end"
+        android:onClick="Reiniciar"
+        android:text="@string/btnSeguro"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:backgroundTint="#008000"
+        />
+
+    <TextView
+        android:id="@+id/imgAlerta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSeguro"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ic_action_name"
+        android:backgroundTint="#000000"
+        />
+
+    <TextView
+        android:id="@+id/txtAlerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSeguro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/alerta"
+        android:textSize="28dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
+
+
